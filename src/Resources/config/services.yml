@@ -1,0 +1,6 @@
+services:
+  Touchdesign\BillingCore\:
+    resource: '../../../src/*'
+    autowire: true
+    autoconfigure: true
+    exclude: '../src/{DependencyInjection,Entity,Migrations,Tests}'
